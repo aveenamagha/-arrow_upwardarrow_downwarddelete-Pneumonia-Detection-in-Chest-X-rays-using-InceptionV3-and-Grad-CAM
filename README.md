@@ -2,6 +2,8 @@
 
 **My Kaggle Notebook**: [Pneumonia Detection in Chest X-rays](https://www.kaggle.com/code/aveenamagha/pneumonia-detection-in-chest-x-rays)
 
+Model link : https://drive.google.com/file/d/18Kvo4tRRwquO-Jd7H-_wIdEhfWC1v8RJ/view?usp=sharing
+
 Pneumonia is a potentially life-threatening respiratory illness, particularly dangerous for young children, elderly individuals, and those with weakened immune systems. While chest X-rays are the standard imaging modality for diagnosing pneumonia, interpreting them manually can be both subjective and time-consuming. This project leverages deep learning to build an automated pipeline that accurately detects pneumonia in chest X-ray images.
 
 I used **InceptionV3**, a powerful convolutional neural network pre-trained on ImageNet, and fine-tuned it for binary classification of chest X-rays into `NORMAL` and `PNEUMONIA`. In addition to high classification accuracy, I also incorporated **Grad-CAM** to generate visual explanations of the model’s predictions—crucial for clinical trust and interpretability.
